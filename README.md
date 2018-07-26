@@ -30,6 +30,7 @@ but are not a robust way to build outputs, compared to running the document sequ
 
 * LaTeX focus
 * Let's you click a point *in the code* and add a comment. Not as nice as Colab's solution.
+* SyncTeX behaviour: clicking somewhere on the result PDF brings you to the corresponding position in the code, and *vice versa*
 
 ![image](https://user-images.githubusercontent.com/2760096/43199412-212f3a8e-9012-11e8-846d-83970045a699.png)
 
@@ -38,9 +39,9 @@ but are not a robust way to build outputs, compared to running the document sequ
 	* More granular is better. e.g. select a cell awesome, select just the whole table, is still ok.
 * *Nice to have:* Can ‘draw’ on the document.
 * Comments ‘integrated’ - an example is Google’s Colob and Overleaf. E.g. move code and analysis to the same place (RStudio Connect)? So source and output are inherently linked - this means a comment ‘points’ to a line of the code. Or a block of code or text.
-	* Limitation of Colob is python only, and it’s notebooks. In most data science settings, notebooks are for exploring - but ‘analyses’ are run as markdown blocks compiled on run (to enforce 
+	* Limitation of Colob is python only, and it’s notebooks. In most data science settings, notebooks are for exploring - but ‘analyses’ are run as markdown blocks compiled on run (to enforce reproducibility)
 	* A non technical user who is ‘reading’  the document via a web-browser (not executing the code) can make a comment.  
-	* Code developer can click and jump to where that comes in the source code (overleaf has this implemented for LaTeX)
+	* Code developer can click and jump to where that comes in the source code (Overleaf has this implemented for LaTeX)
 	* Commenters often will not be R users (e.g. physicians, drug development teams)
 	* Comment tied to line of code (e.g. line of code gone, so is comment)
 	* Comment can also be marked as resolved in the browser
